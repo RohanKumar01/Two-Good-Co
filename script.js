@@ -65,6 +65,7 @@ function navbarAnimation(){
   }
 navbarAnimation();
 
+// Video Animation
 function videoconAnnimation(){
     // Play button 
 
