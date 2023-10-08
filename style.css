@@ -299,7 +299,8 @@ body {
     padding-right: 102px;
     font-size: 12px;
 }
-/* /* 
+
+/* 
 #descpage #rightside a:after{
     content: '';
     position: absolute;
@@ -466,6 +467,7 @@ body {
             align-items: center;
             justify-content: space-evenly;
             flex-wrap: wrap;
+            margin-bottom: 80px;
         }
     
         .child {

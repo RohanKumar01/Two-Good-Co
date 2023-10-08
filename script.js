@@ -42,7 +42,7 @@ locomotiveAnimations();
 function navbarAnimation(){
     gsap.to("#nav-part1 svg", {
       transform: "translateY(-120%)",
-      marginBottom: "-10px",
+    //   marginBottom: "-10px",
       scrollTrigger: {
         trigger: "#page1",
         scroller: "#main",
