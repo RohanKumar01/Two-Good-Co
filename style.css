@@ -194,6 +194,7 @@ body {
 
 }
 
+/* hover Animations */
 .nav #nav-part2 #links a:after{
     content: '';
     position: absolute;
@@ -217,23 +218,20 @@ body {
     color: #A0A0A0;
   }
 
-
-
-
-
-
 .nav #nav-part2 #icons i{
     font-weight: 10;
     margin-top:  20px;
-    margin-right: 35px;
+    margin-right: 15px;
     font-size: 16px;
     padding: 10px 14px;
-
 }
 
 #icons{
+    margin-right: 10px;
     padding: 10px;
     border-radius: 50px;
+    background-color: #F7F7F7;
+    /* border-radius: 25%; */
     /* background-color: #fff; */
 }
 
@@ -254,6 +252,90 @@ body {
     /* margin-top: 4px;*/
      margin-left: 10px;  
      /* margin-bottom: 0.2px; */
+}
+
+#descpage{
+    position: relative;
+    display: flex;
+    align-items: end;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    /* flex-direction: row;
+    justify-content: space-between; */
+}
+
+
+#descpage #rightside p{
+    padding-left: 140px;
+    padding-right: 102px;
+    line-height: 25px;
+    font-family: Gilroy;
+    color: #000;
+    letter-spacing: 0.01em;
+    font-size: 16px;
+    /* justify-content: end; */
+
+}
+
+#descpage #rightside a{
+    
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #a0a0a0;
+    font-family: "ABC Social Mono", "Lucida Sans", Tahoma;  
+    font-weight: 500;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-left: 165px;
+    padding-right: 102px;
+    font-size: 12px;
+}
+/* /* 
+#descpage #rightside a:after{
+    content: '';
+    position: absolute;
+    width: 42.2%; 
+    height: 1px;
+    display: block;
+    right: 0;
+    background: #000;
+    transition: width .2s ease;
+    -webkit-transition: width .2s ease;
+
+} */
+
+#descpage #rightside a:hover{
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    animation-duration: 2s;
+}
+
+
+
+#descpage h2{
+        font-size: 56px;
+        display: grid;
+        grid-column: span 7;
+        text-transform: uppercase;
+        /* line-height: 1em; */
+        vertical-align: text-top;
+        max-width: 14em; 
+        
+}
+
+#descpage p{
+    margin-top: 0px; 
+     margin-bottom: 32px; 
+     margin-left: 25px;
+     font-family: "Futura Now Headline", "Lucida Sans", Tahoma, sans-serif;
+     font-weight: 1500;  
+     line-height: 1;
 }
 
 
