@@ -67,7 +67,7 @@ navbarAnimation();
 
 // Video Animation
 function videoconAnnimation(){
-    // Play button 
+// Play button 
 
 var videocon = document.querySelector("#video-container")
 var playbtn = document.querySelector("#play")
@@ -79,7 +79,6 @@ videocon.addEventListener("mouseenter", function(){
         opacity: 1
     })
 })
-
 
 // Code to make cursor move with the mouse
 videocon.addEventListener("mouseleave", function(){
@@ -98,7 +97,146 @@ videocon.addEventListener("mousemove", function(dets){
 }
 videoconAnnimation();
 
-// Loading Text animation Function
+// GSAP hover animation on Image Cart
+function hoverFunction1(){
+    var visibleSection = document.querySelector(".visibleSection1")
+    var hiddenSection = document.querySelector(".hiddenSection1")
+    var hiddenProduct = document.querySelector(".hiddenSection1 a")
+    var hiddenProductName = document.querySelector(".hiddenSection1 #productName")
+   
+    visibleSection.addEventListener("mouseover", function(){
+
+        hiddenProduct.style.visibility = "visible"
+        hiddenProductName.style.visibility = "visible"
+
+        gsap.to(hiddenSection,{
+            // scale:1,
+            height:230, 
+            // duration: 0.8  
+        })
+
+        hiddenSection.addEventListener("mouseover", function(){
+
+            hiddenProduct.style.visibility = "visible"
+            hiddenProductName.style.visibility = "visible"
+    
+            gsap.to(hiddenSection,{
+                // scale:1,
+                // opacity: 1
+                height:230,
+                // duration: 0.8
+            })
+        })
+   })
+
+   var containerdiv  = document.querySelector("#dets1");
+   containerdiv.addEventListener("mouseout",function(){
+
+    hiddenProduct.style.visibility = "hidden"
+    hiddenProductName.style.visibility = "hidden"
+
+    gsap.to(hiddenSection,{
+        // scale:1,
+        // opacity: 0
+        height: 0
+    })
+})
+}
+hoverFunction1();
+
+function hoverFunction2(){
+    var visibleSection = document.querySelector(".visibleSection2")
+    var hiddenSection = document.querySelector(".hiddenSection2")
+    var hiddenProduct = document.querySelector(".hiddenSection2 a")
+    var hiddenProductName = document.querySelector(".hiddenSection2 #productName")
+   
+    visibleSection.addEventListener("mouseover", function(){
+
+        hiddenProduct.style.visibility = "visible"
+        hiddenProductName.style.visibility = "visible"
+
+        gsap.to(hiddenSection,{
+            // scale:1,
+            height:230, 
+            // duration: 0.8  
+        })
+
+        hiddenSection.addEventListener("mouseover", function(){
+
+            hiddenProduct.style.visibility = "visible"
+            hiddenProductName.style.visibility = "visible"
+    
+            gsap.to(hiddenSection,{
+                // scale:1,
+                // opacity: 1
+                height:230,
+                // duration: 0.8
+            })
+        })
+   })
+
+   var containerdiv  = document.querySelector("#dets2");
+   containerdiv.addEventListener("mouseout",function(){
+
+    hiddenProduct.style.visibility = "hidden"
+    hiddenProductName.style.visibility = "hidden"
+
+    gsap.to(hiddenSection,{
+        // scale:1,
+        // opacity: 0
+        height: 0
+    })
+})
+}
+hoverFunction2();
+
+function hoverFunction3(){
+    var visibleSection = document.querySelector(".visibleSection3")
+    var hiddenSection = document.querySelector(".hiddenSection3")
+    var hiddenProduct = document.querySelector(".hiddenSection3")
+    var hiddenProductName = document.querySelector(".hiddenSection3 #productName")  
+   
+    visibleSection.addEventListener("mouseover", function(){
+
+        hiddenProduct.style.visibility = "visible"
+        hiddenProductName.style.visibility = "visible"
+
+        gsap.to(hiddenSection,{
+            // scale:1,
+            height:230, 
+            // duration: 0.8  
+        })
+
+        hiddenSection.addEventListener("mouseover", function(){
+
+            hiddenProduct.style.visibility = "visible"
+            hiddenProductName.style.visibility = "visible"
+    
+            gsap.to(hiddenSection,{
+                // scale:1,
+                // opacity: 1
+                height:230,
+                // duration: 0.8
+            })
+        })
+   })
+
+   var containerdiv  = document.querySelector("#dets3");
+   containerdiv.addEventListener("mouseout",function(){
+
+    hiddenProduct.style.visibility = "hidden"
+    hiddenProductName.style.visibility = "hidden"
+
+    gsap.to(hiddenSection,{
+        // scale:1,
+        // opacity: 0
+        height: 0
+    })
+})
+}
+hoverFunction3();
+
+// Loading Text Animation Function
 function loadingAnimation(){
     gsap.from("#page1 h1",{
         y:100,
@@ -187,7 +325,66 @@ document.querySelector("#child4").addEventListener("mouseleave",function(){
         transform: 'translate(-50%,-50%) scale(0)'
     })
 })
+
+//5
+document.querySelector("#child5").addEventListener("mouseenter",function(){
+    gsap.to("#cursor",{
+        transform: 'translate(-50%,-50%) scale(1)',
+        backgroundColor: '#E6DFD7'
+    })
+})
+
+document.querySelector("#child5").addEventListener("mouseleave",function(){
+    gsap.to("#cursor",{
+        transform: 'translate(-50%,-50%) scale(0)'
+    })
+})
+
+//6
+document.querySelector("#child6").addEventListener("mouseenter",function(){
+    gsap.to("#cursor",{
+        transform: 'translate(-50%,-50%) scale(1)',
+        backgroundColor: '#E6DFD7'
+    })
+})
+
+document.querySelector("#child6").addEventListener("mouseleave",function(){
+    gsap.to("#cursor",{
+        transform: 'translate(-50%,-50%) scale(0)'
+    })
+})
+
+//7
+document.querySelector("#child7").addEventListener("mouseenter",function(){
+    gsap.to("#cursor",{
+        transform: 'translate(-50%,-50%) scale(1)',
+        backgroundColor: '#f8e9cb'
+    })
+})
+
+document.querySelector("#child7").addEventListener("mouseleave",function(){
+    gsap.to("#cursor",{
+        transform: 'translate(-50%,-50%) scale(0)'
+    })
+})
+
+//8
+document.querySelector("#child8").addEventListener("mouseenter",function(){
+    gsap.to("#cursor",{
+        transform: 'translate(-50%,-50%) scale(1)',
+        backgroundColor: '#f1afa9'
+    })
+})
+
+document.querySelector("#child8").addEventListener("mouseleave",function(){
+    gsap.to("#cursor",{
+        transform: 'translate(-50%,-50%) scale(0)'
+    })
+})
+
 }
 cursorAnimation ();
+
+
 
 
