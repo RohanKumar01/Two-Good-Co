@@ -237,6 +237,7 @@ videoconAnnimation();
 // hoverFunction3();
 
 // Loading Text Animation Function
+
 function loadingAnimation(){
     gsap.from("#page1 h1",{
         y:100,
