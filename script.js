@@ -62,7 +62,7 @@ function navbarAnimation(){
         scrub: true,
       },
     });
-  }
+}
 navbarAnimation();
 
 // Video Animation
@@ -98,143 +98,143 @@ videocon.addEventListener("mousemove", function(dets){
 videoconAnnimation();
 
 // GSAP hover animation on Image Cart
-function hoverFunction1(){
-    var visibleSection = document.querySelector(".visibleSection1")
-    var hiddenSection = document.querySelector(".hiddenSection1")
-    var hiddenProduct = document.querySelector(".hiddenSection1 a")
-    var hiddenProductName = document.querySelector(".hiddenSection1 #productName")
+// function hoverFunction1(){
+//     var visibleSection = document.querySelector(".visibleSection1")
+//     var hiddenSection = document.querySelector(".hiddenSection1")
+//     var hiddenProduct = document.querySelector(".hiddenSection1 a")
+//     var hiddenProductName = document.querySelector(".hiddenSection1 #productName")
    
-    visibleSection.addEventListener("mouseover", function(){
+//     visibleSection.addEventListener("mouseover", function(){
 
-        hiddenProduct.style.visibility = "visible"
-        hiddenProductName.style.visibility = "visible"
+//         hiddenProduct.style.visibility = "visible"
+//         hiddenProductName.style.visibility = "visible"
 
-        gsap.to(hiddenSection,{
-            // scale:1,
-            height:230, 
-            // duration: 0.8  
-        })
+//         gsap.to(hiddenSection,{
+//             // scale:1,
+//             height:230, 
+//             // duration: 0.8  
+//         })
 
-        hiddenSection.addEventListener("mouseover", function(){
+//         hiddenSection.addEventListener("mouseover", function(){
 
-            hiddenProduct.style.visibility = "visible"
-            hiddenProductName.style.visibility = "visible"
+//             hiddenProduct.style.visibility = "visible"
+//             hiddenProductName.style.visibility = "visible"
     
-            gsap.to(hiddenSection,{
-                // scale:1,
-                // opacity: 1
-                height:230,
-                // duration: 0.8
-            })
-        })
-   })
+//             gsap.to(hiddenSection,{
+//                 // scale:1,
+//                 // opacity: 1
+//                 height:230,
+//                 // duration: 0.8
+//             })
+//         })
+//    })
 
-   var containerdiv  = document.querySelector("#dets1");
-   containerdiv.addEventListener("mouseout",function(){
+//    var containerdiv  = document.querySelector("#dets1");
+//    containerdiv.addEventListener("mouseout",function(){
 
-    hiddenProduct.style.visibility = "hidden"
-    hiddenProductName.style.visibility = "hidden"
+//     hiddenProduct.style.visibility = "hidden"
+//     hiddenProductName.style.visibility = "hidden"
 
-    gsap.to(hiddenSection,{
-        // scale:1,
-        // opacity: 0
-        height: 0
-    })
-})
-}
-hoverFunction1();
+//     gsap.to(hiddenSection,{
+//         // scale:1,
+//         // opacity: 0
+//         height: 0
+//     })
+// })
+// }
+// hoverFunction1();
 
-function hoverFunction2(){
-    var visibleSection = document.querySelector(".visibleSection2")
-    var hiddenSection = document.querySelector(".hiddenSection2")
-    var hiddenProduct = document.querySelector(".hiddenSection2 a")
-    var hiddenProductName = document.querySelector(".hiddenSection2 #productName")
+// function hoverFunction2(){
+//     var visibleSection = document.querySelector(".visibleSection2")
+//     var hiddenSection = document.querySelector(".hiddenSection2")
+//     var hiddenProduct = document.querySelector(".hiddenSection2 a")
+//     var hiddenProductName = document.querySelector(".hiddenSection2 #productName")
    
-    visibleSection.addEventListener("mouseover", function(){
+//     visibleSection.addEventListener("mouseover", function(){
 
-        hiddenProduct.style.visibility = "visible"
-        hiddenProductName.style.visibility = "visible"
+//         hiddenProduct.style.visibility = "visible"
+//         hiddenProductName.style.visibility = "visible"
 
-        gsap.to(hiddenSection,{
-            // scale:1,
-            height:230, 
-            // duration: 0.8  
-        })
+//         gsap.to(hiddenSection,{
+//             // scale:1,
+//             height:230, 
+//             // duration: 0.8  
+//         })
 
-        hiddenSection.addEventListener("mouseover", function(){
+//         hiddenSection.addEventListener("mouseover", function(){
 
-            hiddenProduct.style.visibility = "visible"
-            hiddenProductName.style.visibility = "visible"
+//             hiddenProduct.style.visibility = "visible"
+//             hiddenProductName.style.visibility = "visible"
     
-            gsap.to(hiddenSection,{
-                // scale:1,
-                // opacity: 1
-                height:230,
-                // duration: 0.8
-            })
-        })
-   })
+//             gsap.to(hiddenSection,{
+//                 // scale:1,
+//                 // opacity: 1
+//                 height:230,
+//                 // duration: 0.8
+//             })
+//         })
+//    })
 
-   var containerdiv  = document.querySelector("#dets2");
-   containerdiv.addEventListener("mouseout",function(){
+//    var containerdiv  = document.querySelector("#dets2");
+//    containerdiv.addEventListener("mouseout",function(){
 
-    hiddenProduct.style.visibility = "hidden"
-    hiddenProductName.style.visibility = "hidden"
+//     hiddenProduct.style.visibility = "hidden"
+//     hiddenProductName.style.visibility = "hidden"
 
-    gsap.to(hiddenSection,{
-        // scale:1,
-        // opacity: 0
-        height: 0
-    })
-})
-}
-hoverFunction2();
+//     gsap.to(hiddenSection,{
+//         // scale:1,
+//         // opacity: 0
+//         height: 0
+//     })
+// })
+// }
+// hoverFunction2();
 
-function hoverFunction3(){
-    var visibleSection = document.querySelector(".visibleSection3")
-    var hiddenSection = document.querySelector(".hiddenSection3")
-    var hiddenProduct = document.querySelector(".hiddenSection3")
-    var hiddenProductName = document.querySelector(".hiddenSection3 #productName")  
+// function hoverFunction3(){
+//     var visibleSection = document.querySelector(".visibleSection3")
+//     var hiddenSection = document.querySelector(".hiddenSection3")
+//     var hiddenProduct = document.querySelector(".hiddenSection3")
+//     var hiddenProductName = document.querySelector(".hiddenSection3 #productName")  
    
-    visibleSection.addEventListener("mouseover", function(){
+//     visibleSection.addEventListener("mouseover", function(){
 
-        hiddenProduct.style.visibility = "visible"
-        hiddenProductName.style.visibility = "visible"
+//         hiddenProduct.style.visibility = "visible"
+//         hiddenProductName.style.visibility = "visible"
 
-        gsap.to(hiddenSection,{
-            // scale:1,
-            height:230, 
-            // duration: 0.8  
-        })
+//         gsap.to(hiddenSection,{
+//             // scale:1,
+//             height:230, 
+//             // duration: 0.8  
+//         })
 
-        hiddenSection.addEventListener("mouseover", function(){
+//         hiddenSection.addEventListener("mouseover", function(){
 
-            hiddenProduct.style.visibility = "visible"
-            hiddenProductName.style.visibility = "visible"
+//             hiddenProduct.style.visibility = "visible"
+//             hiddenProductName.style.visibility = "visible"
     
-            gsap.to(hiddenSection,{
-                // scale:1,
-                // opacity: 1
-                height:230,
-                // duration: 0.8
-            })
-        })
-   })
+//             gsap.to(hiddenSection,{
+//                 // scale:1,
+//                 // opacity: 1
+//                 height:230,
+//                 // duration: 0.8
+//             })
+//         })
+//    })
 
-   var containerdiv  = document.querySelector("#dets3");
-   containerdiv.addEventListener("mouseout",function(){
+//    var containerdiv  = document.querySelector("#dets3");
+//    containerdiv.addEventListener("mouseout",function(){
 
-    hiddenProduct.style.visibility = "hidden"
-    hiddenProductName.style.visibility = "hidden"
+//     hiddenProduct.style.visibility = "hidden"
+//     hiddenProductName.style.visibility = "hidden"
 
-    gsap.to(hiddenSection,{
-        // scale:1,
-        // opacity: 0
-        height: 0
-    })
-})
-}
-hoverFunction3();
+//     gsap.to(hiddenSection,{
+//         // scale:1,
+//         // opacity: 0
+//         height: 0
+//     })
+// })
+// }
+// hoverFunction3();
 
 // Loading Text Animation Function
 function loadingAnimation(){
